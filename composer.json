@@ -1,0 +1,38 @@
+{
+  "name": "leuchtfeuer/static-info-tables-bg",
+  "description": "Bulgarian (bg) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.Leuchtfeuer.com",
+  "authors": [
+    {
+      "name": "Florian Wessels",
+      "role": "Developer",
+      "email": "f.wessels@Leuchtfeuer.com",
+      "homepage": "https://www.Leuchtfeuer.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/Leuchtfeuer/static-info-tables-bg/issues",
+    "source": "https://github.com/Leuchtfeuer/static-info-tables-bg",
+    "email": "dev@Leuchtfeuer.com"
+  },
+  "replace": {
+    "typo3-ter/static-info-tables-id": "self.version"
+  },
+  "require": {
+    "typo3/cms-core": "^9.5.17 || ^10.4.2",
+    "typo3/cms-extbase": "^9.5.17 || ^10.4.2",
+    "sjbr/static-info-tables": "^6.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Leuchtfeuer\\StaticInfoTablesBg\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "static_info_tables_bg"
+    }
+  }
+}
