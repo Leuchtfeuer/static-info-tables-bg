@@ -18,7 +18,7 @@
     "email": "dev@Leuchtfeuer.com"
   },
   "replace": {
-    "typo3-ter/static-info-tables-id": "self.version"
+    "typo3-ter/static-info-tables-bg": "self.version"
   },
   "require": {
     "typo3/cms-core": "^9.5.17 || ^10.4.2",
